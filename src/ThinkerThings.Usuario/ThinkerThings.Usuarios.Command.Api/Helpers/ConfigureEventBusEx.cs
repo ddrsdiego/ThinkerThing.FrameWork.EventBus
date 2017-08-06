@@ -1,7 +1,6 @@
 ﻿using EventBus.Abstractions;
 using SimpleInjector;
 using ThinkerThings.Dominio.Usuarios.Events;
-using ThinkerThings.Usuarios.Event;
 
 namespace ThinkerThings.Usuarios.Command.Api.Helpers
 {
@@ -12,7 +11,6 @@ namespace ThinkerThings.Usuarios.Command.Api.Helpers
             var eventBus = container.GetInstance<IEventBus>();
 
             eventBus.Subscribe<UsuarioCriadoEvent>();
-            eventBus.Subscribe<UsuarioAtualizadoEvent>();
         }
     }
 }

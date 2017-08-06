@@ -64,7 +64,12 @@ namespace EventBusRabbitMQ
 
         public void Dispose()
         {
+            if (_consumerChannel != null)
+            {
+                _consumerChannel.Dispose();
+            }
 
+            _subsManager.Clear();
         }
 
         private void VerifyConnection()
@@ -84,12 +89,12 @@ namespace EventBusRabbitMQ
             var consumer = new EventingBasicConsumer(channel);
             consumer.Received += async (model, ea) =>
             {
-                var eventName = string.IsNullOrEmpty(ea.RoutingKey) ? ea.Exchange : ea.RoutingKey;
-                eventName = eventName.Substring(3, eventName.Length - 3);
-
+                var eventName = GetEventName(ea);
                 var message = Encoding.UTF8.GetString(ea.Body);
 
                 await ProcessEvent(eventName, message);
+
+                //channel.BasicAck(deliveryTag: ea.DeliveryTag, multiple: true);
             };
 
             channel.BasicConsume(queue: queueName,
@@ -103,6 +108,15 @@ namespace EventBusRabbitMQ
             };
 
             return channel;
+        }
+
+        private string GetEventName(BasicDeliverEventArgs ea)
+        {
+            var eventName = string.IsNullOrEmpty(ea.RoutingKey) ? ea.Exchange : ea.RoutingKey;
+
+            eventName = eventName.Substring(3, eventName.Length - 3);
+
+            return eventName;
         }
 
         private async Task ProcessEvent(string eventName, string message)

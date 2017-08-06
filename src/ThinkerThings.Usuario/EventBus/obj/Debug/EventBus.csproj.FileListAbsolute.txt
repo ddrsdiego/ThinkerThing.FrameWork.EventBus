@@ -2,11 +2,14 @@ C:\dev\ThinkerThing\src\ThinkerThings.Usuario\EventBus\bin\Debug\EventBus.dll
 C:\dev\ThinkerThing\src\ThinkerThings.Usuario\EventBus\bin\Debug\EventBus.pdb
 C:\dev\ThinkerThing\src\ThinkerThings.Usuario\EventBus\bin\Debug\MediatR.dll
 C:\dev\ThinkerThing\src\ThinkerThings.Usuario\EventBus\bin\Debug\Microsoft.Diagnostics.Tracing.EventSource.dll
+C:\dev\ThinkerThing\src\ThinkerThings.Usuario\EventBus\bin\Debug\Polly.dll
 C:\dev\ThinkerThing\src\ThinkerThings.Usuario\EventBus\bin\Debug\RabbitMQ.Client.dll
 C:\dev\ThinkerThing\src\ThinkerThings.Usuario\EventBus\bin\Debug\Rydo.Framework.MediatR.dll
 C:\dev\ThinkerThing\src\ThinkerThings.Usuario\EventBus\bin\Debug\SimpleInjector.dll
 C:\dev\ThinkerThing\src\ThinkerThings.Usuario\EventBus\bin\Debug\CQRSlite.dll
 C:\dev\ThinkerThing\src\ThinkerThings.Usuario\EventBus\bin\Debug\Microsoft.Diagnostics.Tracing.EventSource.xml
+C:\dev\ThinkerThing\src\ThinkerThings.Usuario\EventBus\bin\Debug\Polly.pdb
+C:\dev\ThinkerThing\src\ThinkerThings.Usuario\EventBus\bin\Debug\Polly.xml
 C:\dev\ThinkerThing\src\ThinkerThings.Usuario\EventBus\bin\Debug\RabbitMQ.Client.xml
 C:\dev\ThinkerThing\src\ThinkerThings.Usuario\EventBus\bin\Debug\Rydo.Framework.MediatR.pdb
 C:\dev\ThinkerThing\src\ThinkerThings.Usuario\EventBus\bin\Debug\SimpleInjector.xml
@@ -14,6 +17,3 @@ C:\dev\ThinkerThing\src\ThinkerThings.Usuario\EventBus\bin\Debug\CQRSlite.pdb
 C:\dev\ThinkerThing\src\ThinkerThings.Usuario\EventBus\obj\Debug\EventBus.csprojResolveAssemblyReference.cache
 C:\dev\ThinkerThing\src\ThinkerThings.Usuario\EventBus\obj\Debug\EventBus.dll
 C:\dev\ThinkerThing\src\ThinkerThings.Usuario\EventBus\obj\Debug\EventBus.pdb
-C:\dev\ThinkerThing\src\ThinkerThings.Usuario\EventBus\bin\Debug\Polly.dll
-C:\dev\ThinkerThing\src\ThinkerThings.Usuario\EventBus\bin\Debug\Polly.pdb
-C:\dev\ThinkerThing\src\ThinkerThings.Usuario\EventBus\bin\Debug\Polly.xml

@@ -1,10 +1,9 @@
 ﻿using MediatR;
-using Rydo.Framework.MediatR.Eventos;
-using Rydo.Framework.MediatR.Handlres;
+using System;
 
 namespace EventBus.Abstractions
 {
-    public interface IEventBus
+    public interface IEventBus : IDisposable
     {
         void Subscribe<T>() where T : IRequest<Unit>;
 
