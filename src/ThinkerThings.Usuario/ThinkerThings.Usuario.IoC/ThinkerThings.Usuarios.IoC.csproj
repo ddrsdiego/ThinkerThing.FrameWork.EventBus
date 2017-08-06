@@ -1,0 +1,116 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{D1BB8525-69EB-43A4-9376-AA388B9B7B95}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>ThinkerThings.Usuarios.IoC</RootNamespace>
+    <AssemblyName>ThinkerThings.Usuarios.IoC</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="CQRSlite, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\CqrsLite.0.12.9\lib\net461\CQRSlite.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="MediatR, Version=3.0.1.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\MediatR.3.0.1\lib\net45\MediatR.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.Diagnostics.Tracing.EventSource, Version=1.1.28.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Diagnostics.Tracing.EventSource.Redist.1.1.28\lib\net46\Microsoft.Diagnostics.Tracing.EventSource.dll</HintPath>
+    </Reference>
+    <Reference Include="RabbitMQ.Client, Version=5.0.0.0, Culture=neutral, PublicKeyToken=89e7d7c5feba84ce, processorArchitecture=MSIL">
+      <HintPath>..\packages\RabbitMQ.Client.5.0.1\lib\net451\RabbitMQ.Client.dll</HintPath>
+    </Reference>
+    <Reference Include="Rydo.Framework.MediatR">
+      <HintPath>..\..\..\..\..\Users\Diego Dias\Documents\Visual Studio 2015\Projects\DEV\Rydo.Framework\Rydo.Framework.MediatR\bin\Debug\Rydo.Framework.MediatR.dll</HintPath>
+    </Reference>
+    <Reference Include="SimpleInjector, Version=4.0.8.0, Culture=neutral, PublicKeyToken=984cb50dea722e99, processorArchitecture=MSIL">
+      <HintPath>..\packages\SimpleInjector.4.0.8\lib\net45\SimpleInjector.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="StackExchange.Redis, Version=1.2.3.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\StackExchange.Redis.1.2.3\lib\net46\StackExchange.Redis.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.IO.Compression" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ContainerEx.cs" />
+    <Compile Include="EventBusContainer.cs" />
+    <Compile Include="HandlerContainer.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="RepositorioContainer.cs" />
+    <Compile Include="ServicoContainer.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\EventBusRabbitMQ\EventBusRabbitMQ.csproj">
+      <Project>{c1c85a58-e298-4d22-b7ee-a08c99bd3f0d}</Project>
+      <Name>EventBusRabbitMQ</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\EventBus\EventBus.csproj">
+      <Project>{b2e5cb87-919b-45a8-9f2a-49a8d6baec50}</Project>
+      <Name>EventBus</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\ThinkerThings.Dominio.Usuarios.Servico\ThinkerThings.Dominio.Usuarios.Servico.csproj">
+      <Project>{13c1e5ce-ab4d-4f92-b35f-6f89ddc73abf}</Project>
+      <Name>ThinkerThings.Dominio.Usuarios.Servico</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\ThinkerThings.Dominio.Usuarios\ThinkerThings.Dominio.Usuarios.csproj">
+      <Project>{59255e56-12a7-4214-a9b4-101051758f49}</Project>
+      <Name>ThinkerThings.Dominio.Usuarios</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\ThinkerThings.Usuario.Data\ThinkerThings.Usuarios.Data.csproj">
+      <Project>{338de5a1-7747-47d6-8d68-fffb27384755}</Project>
+      <Name>ThinkerThings.Usuarios.Data</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\ThinkerThings.Usuarios.Command\ThinkerThings.Usuarios.Command.csproj">
+      <Project>{f85c6742-9f3f-4744-8825-a079e29046f9}</Project>
+      <Name>ThinkerThings.Usuarios.Command</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\ThinkerThings.Usuarios.Event\ThinkerThings.Usuarios.Event.csproj">
+      <Project>{96fcfcf3-5bac-432b-a627-baf36d9c8397}</Project>
+      <Name>ThinkerThings.Usuarios.Event</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\ThinkerThings.Usuarios.Query\ThinkerThings.Usuarios.Query.csproj">
+      <Project>{ea195acf-327e-4ebe-b00d-a5aeab67eae6}</Project>
+      <Name>ThinkerThings.Usuarios.Query</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
+    <None Include="packages.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

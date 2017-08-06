@@ -1,0 +1,13 @@
+C:\dev\ThinkerThing\src\ThinkerThings.Usuario\ThinkerThings.Usuario.IoC\bin\Debug\ThinkerThings.Usuario.IoC.dll
+C:\dev\ThinkerThing\src\ThinkerThings.Usuario\ThinkerThings.Usuario.IoC\bin\Debug\ThinkerThings.Usuario.IoC.pdb
+C:\dev\ThinkerThing\src\ThinkerThings.Usuario\ThinkerThings.Usuario.IoC\bin\Debug\SimpleInjector.dll
+C:\dev\ThinkerThing\src\ThinkerThings.Usuario\ThinkerThings.Usuario.IoC\bin\Debug\ThinkerThings.Dominio.Usuarios.dll
+C:\dev\ThinkerThing\src\ThinkerThings.Usuario\ThinkerThings.Usuario.IoC\bin\Debug\ThinkerThings.Dominio.Usuarios.Servico.dll
+C:\dev\ThinkerThing\src\ThinkerThings.Usuario\ThinkerThings.Usuario.IoC\bin\Debug\ThinkerThings.Usuarios.Data.dll
+C:\dev\ThinkerThing\src\ThinkerThings.Usuario\ThinkerThings.Usuario.IoC\bin\Debug\ThinkerThings.Dominio.Usuarios.Servico.pdb
+C:\dev\ThinkerThing\src\ThinkerThings.Usuario\ThinkerThings.Usuario.IoC\bin\Debug\ThinkerThings.Dominio.Usuarios.pdb
+C:\dev\ThinkerThing\src\ThinkerThings.Usuario\ThinkerThings.Usuario.IoC\bin\Debug\ThinkerThings.Usuarios.Data.pdb
+C:\dev\ThinkerThing\src\ThinkerThings.Usuario\ThinkerThings.Usuario.IoC\bin\Debug\SimpleInjector.xml
+C:\dev\ThinkerThing\src\ThinkerThings.Usuario\ThinkerThings.Usuario.IoC\obj\Debug\ThinkerThings.Usuario.IoC.csprojResolveAssemblyReference.cache
+C:\dev\ThinkerThing\src\ThinkerThings.Usuario\ThinkerThings.Usuario.IoC\obj\Debug\ThinkerThings.Usuario.IoC.dll
+C:\dev\ThinkerThing\src\ThinkerThings.Usuario\ThinkerThings.Usuario.IoC\obj\Debug\ThinkerThings.Usuario.IoC.pdb

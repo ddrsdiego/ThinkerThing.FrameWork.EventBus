@@ -1,0 +1,1 @@
+C:\dev\ThinkerThing\src\ThinkerThings.Usuario\ThinkerThings.Usuarios.Command.Api.Test\obj\Debug\ThinkerThings.Usuarios.Command.Api.Test.csprojResolveAssemblyReference.cache

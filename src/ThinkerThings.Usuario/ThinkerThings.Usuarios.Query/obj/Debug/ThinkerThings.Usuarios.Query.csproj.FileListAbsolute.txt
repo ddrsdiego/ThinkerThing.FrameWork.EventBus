@@ -1,0 +1,14 @@
+C:\dev\ThinkerThing\src\ThinkerThings.Usuario\ThinkerThings.Usuarios.Query\bin\Debug\ThinkerThings.Usuarios.Query.dll
+C:\dev\ThinkerThing\src\ThinkerThings.Usuario\ThinkerThings.Usuarios.Query\bin\Debug\ThinkerThings.Usuarios.Query.pdb
+C:\dev\ThinkerThing\src\ThinkerThings.Usuario\ThinkerThings.Usuarios.Query\bin\Debug\CQRSlite.dll
+C:\dev\ThinkerThing\src\ThinkerThings.Usuario\ThinkerThings.Usuarios.Query\bin\Debug\ThinkerThings.Dominio.Usuarios.dll
+C:\dev\ThinkerThing\src\ThinkerThings.Usuario\ThinkerThings.Usuarios.Query\bin\Debug\MediatR.dll
+C:\dev\ThinkerThing\src\ThinkerThings.Usuario\ThinkerThings.Usuarios.Query\bin\Debug\Rydo.Framework.MediatR.dll
+C:\dev\ThinkerThing\src\ThinkerThings.Usuario\ThinkerThings.Usuarios.Query\bin\Debug\SimpleInjector.dll
+C:\dev\ThinkerThing\src\ThinkerThings.Usuario\ThinkerThings.Usuarios.Query\bin\Debug\ThinkerThings.Dominio.Usuarios.pdb
+C:\dev\ThinkerThing\src\ThinkerThings.Usuario\ThinkerThings.Usuarios.Query\bin\Debug\CQRSlite.pdb
+C:\dev\ThinkerThing\src\ThinkerThings.Usuario\ThinkerThings.Usuarios.Query\bin\Debug\Rydo.Framework.MediatR.pdb
+C:\dev\ThinkerThing\src\ThinkerThings.Usuario\ThinkerThings.Usuarios.Query\bin\Debug\SimpleInjector.xml
+C:\dev\ThinkerThing\src\ThinkerThings.Usuario\ThinkerThings.Usuarios.Query\obj\Debug\ThinkerThings.Usuarios.Query.csprojResolveAssemblyReference.cache
+C:\dev\ThinkerThing\src\ThinkerThings.Usuario\ThinkerThings.Usuarios.Query\obj\Debug\ThinkerThings.Usuarios.Query.dll
+C:\dev\ThinkerThing\src\ThinkerThings.Usuario\ThinkerThings.Usuarios.Query\obj\Debug\ThinkerThings.Usuarios.Query.pdb
