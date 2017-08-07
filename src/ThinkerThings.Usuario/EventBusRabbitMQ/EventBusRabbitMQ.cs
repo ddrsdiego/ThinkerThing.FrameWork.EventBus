@@ -94,6 +94,7 @@ namespace EventBusRabbitMQ
 
                 await ProcessEvent(eventName, message);
 
+                channel.BasicQos(0, 5, false);
                 //channel.BasicAck(deliveryTag: ea.DeliveryTag, multiple: true);
             };
 
