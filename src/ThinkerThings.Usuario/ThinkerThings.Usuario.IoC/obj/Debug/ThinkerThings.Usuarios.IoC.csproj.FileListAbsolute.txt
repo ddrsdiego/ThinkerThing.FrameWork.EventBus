@@ -38,3 +38,42 @@ C:\dev\ThinkerThing\src\ThinkerThings.Usuario\ThinkerThings.Usuario.IoC\bin\Debu
 C:\dev\ThinkerThing\src\ThinkerThings.Usuario\ThinkerThings.Usuario.IoC\obj\Debug\ThinkerThings.Usuarios.IoC.csprojResolveAssemblyReference.cache
 C:\dev\ThinkerThing\src\ThinkerThings.Usuario\ThinkerThings.Usuario.IoC\obj\Debug\ThinkerThings.Usuarios.IoC.dll
 C:\dev\ThinkerThing\src\ThinkerThings.Usuario\ThinkerThings.Usuario.IoC\obj\Debug\ThinkerThings.Usuarios.IoC.pdb
+C:\Users\diego.silva\Documents\Visual Studio 2017\Projects\ThinkerThing.FrameWork.EventBus\src\ThinkerThings.Usuario\ThinkerThings.Usuario.IoC\bin\Debug\ThinkerThings.Usuarios.IoC.dll.config
+C:\Users\diego.silva\Documents\Visual Studio 2017\Projects\ThinkerThing.FrameWork.EventBus\src\ThinkerThings.Usuario\ThinkerThings.Usuario.IoC\bin\Debug\ThinkerThings.Usuarios.IoC.dll
+C:\Users\diego.silva\Documents\Visual Studio 2017\Projects\ThinkerThing.FrameWork.EventBus\src\ThinkerThings.Usuario\ThinkerThings.Usuario.IoC\bin\Debug\ThinkerThings.Usuarios.IoC.pdb
+C:\Users\diego.silva\Documents\Visual Studio 2017\Projects\ThinkerThing.FrameWork.EventBus\src\ThinkerThings.Usuario\ThinkerThings.Usuario.IoC\bin\Debug\CQRSlite.dll
+C:\Users\diego.silva\Documents\Visual Studio 2017\Projects\ThinkerThing.FrameWork.EventBus\src\ThinkerThings.Usuario\ThinkerThings.Usuario.IoC\bin\Debug\EventBus.dll
+C:\Users\diego.silva\Documents\Visual Studio 2017\Projects\ThinkerThing.FrameWork.EventBus\src\ThinkerThings.Usuario\ThinkerThings.Usuario.IoC\bin\Debug\EventBusRabbitMQ.dll
+C:\Users\diego.silva\Documents\Visual Studio 2017\Projects\ThinkerThing.FrameWork.EventBus\src\ThinkerThings.Usuario\ThinkerThings.Usuario.IoC\bin\Debug\MediatR.dll
+C:\Users\diego.silva\Documents\Visual Studio 2017\Projects\ThinkerThing.FrameWork.EventBus\src\ThinkerThings.Usuario\ThinkerThings.Usuario.IoC\bin\Debug\Microsoft.Diagnostics.Tracing.EventSource.dll
+C:\Users\diego.silva\Documents\Visual Studio 2017\Projects\ThinkerThing.FrameWork.EventBus\src\ThinkerThings.Usuario\ThinkerThings.Usuario.IoC\bin\Debug\RabbitMQ.Client.dll
+C:\Users\diego.silva\Documents\Visual Studio 2017\Projects\ThinkerThing.FrameWork.EventBus\src\ThinkerThings.Usuario\ThinkerThings.Usuario.IoC\bin\Debug\SimpleInjector.dll
+C:\Users\diego.silva\Documents\Visual Studio 2017\Projects\ThinkerThing.FrameWork.EventBus\src\ThinkerThings.Usuario\ThinkerThings.Usuario.IoC\bin\Debug\StackExchange.Redis.dll
+C:\Users\diego.silva\Documents\Visual Studio 2017\Projects\ThinkerThing.FrameWork.EventBus\src\ThinkerThings.Usuario\ThinkerThings.Usuario.IoC\bin\Debug\ThinkerThings.Dominio.Usuarios.dll
+C:\Users\diego.silva\Documents\Visual Studio 2017\Projects\ThinkerThing.FrameWork.EventBus\src\ThinkerThings.Usuario\ThinkerThings.Usuario.IoC\bin\Debug\ThinkerThings.Dominio.Usuarios.Servico.dll
+C:\Users\diego.silva\Documents\Visual Studio 2017\Projects\ThinkerThing.FrameWork.EventBus\src\ThinkerThings.Usuario\ThinkerThings.Usuario.IoC\bin\Debug\ThinkerThings.Usuarios.Command.dll
+C:\Users\diego.silva\Documents\Visual Studio 2017\Projects\ThinkerThing.FrameWork.EventBus\src\ThinkerThings.Usuario\ThinkerThings.Usuario.IoC\bin\Debug\ThinkerThings.Usuarios.Data.dll
+C:\Users\diego.silva\Documents\Visual Studio 2017\Projects\ThinkerThing.FrameWork.EventBus\src\ThinkerThings.Usuario\ThinkerThings.Usuario.IoC\bin\Debug\ThinkerThings.Usuarios.Event.dll
+C:\Users\diego.silva\Documents\Visual Studio 2017\Projects\ThinkerThing.FrameWork.EventBus\src\ThinkerThings.Usuario\ThinkerThings.Usuario.IoC\bin\Debug\ThinkerThings.Usuarios.Query.dll
+C:\Users\diego.silva\Documents\Visual Studio 2017\Projects\ThinkerThing.FrameWork.EventBus\src\ThinkerThings.Usuario\ThinkerThings.Usuario.IoC\bin\Debug\Polly.dll
+C:\Users\diego.silva\Documents\Visual Studio 2017\Projects\ThinkerThing.FrameWork.EventBus\src\ThinkerThings.Usuario\ThinkerThings.Usuario.IoC\bin\Debug\Newtonsoft.Json.dll
+C:\Users\diego.silva\Documents\Visual Studio 2017\Projects\ThinkerThing.FrameWork.EventBus\src\ThinkerThings.Usuario\ThinkerThings.Usuario.IoC\bin\Debug\EventBusRabbitMQ.pdb
+C:\Users\diego.silva\Documents\Visual Studio 2017\Projects\ThinkerThing.FrameWork.EventBus\src\ThinkerThings.Usuario\ThinkerThings.Usuario.IoC\bin\Debug\EventBus.pdb
+C:\Users\diego.silva\Documents\Visual Studio 2017\Projects\ThinkerThing.FrameWork.EventBus\src\ThinkerThings.Usuario\ThinkerThings.Usuario.IoC\bin\Debug\ThinkerThings.Dominio.Usuarios.Servico.pdb
+C:\Users\diego.silva\Documents\Visual Studio 2017\Projects\ThinkerThing.FrameWork.EventBus\src\ThinkerThings.Usuario\ThinkerThings.Usuario.IoC\bin\Debug\ThinkerThings.Dominio.Usuarios.pdb
+C:\Users\diego.silva\Documents\Visual Studio 2017\Projects\ThinkerThing.FrameWork.EventBus\src\ThinkerThings.Usuario\ThinkerThings.Usuario.IoC\bin\Debug\ThinkerThings.Usuarios.Data.pdb
+C:\Users\diego.silva\Documents\Visual Studio 2017\Projects\ThinkerThing.FrameWork.EventBus\src\ThinkerThings.Usuario\ThinkerThings.Usuario.IoC\bin\Debug\ThinkerThings.Usuarios.Command.pdb
+C:\Users\diego.silva\Documents\Visual Studio 2017\Projects\ThinkerThing.FrameWork.EventBus\src\ThinkerThings.Usuario\ThinkerThings.Usuario.IoC\bin\Debug\ThinkerThings.Usuarios.Event.pdb
+C:\Users\diego.silva\Documents\Visual Studio 2017\Projects\ThinkerThing.FrameWork.EventBus\src\ThinkerThings.Usuario\ThinkerThings.Usuario.IoC\bin\Debug\ThinkerThings.Usuarios.Query.pdb
+C:\Users\diego.silva\Documents\Visual Studio 2017\Projects\ThinkerThing.FrameWork.EventBus\src\ThinkerThings.Usuario\ThinkerThings.Usuario.IoC\bin\Debug\CQRSlite.pdb
+C:\Users\diego.silva\Documents\Visual Studio 2017\Projects\ThinkerThing.FrameWork.EventBus\src\ThinkerThings.Usuario\ThinkerThings.Usuario.IoC\bin\Debug\Microsoft.Diagnostics.Tracing.EventSource.xml
+C:\Users\diego.silva\Documents\Visual Studio 2017\Projects\ThinkerThing.FrameWork.EventBus\src\ThinkerThings.Usuario\ThinkerThings.Usuario.IoC\bin\Debug\RabbitMQ.Client.xml
+C:\Users\diego.silva\Documents\Visual Studio 2017\Projects\ThinkerThing.FrameWork.EventBus\src\ThinkerThings.Usuario\ThinkerThings.Usuario.IoC\bin\Debug\Rydo.Framework.MediatR.pdb
+C:\Users\diego.silva\Documents\Visual Studio 2017\Projects\ThinkerThing.FrameWork.EventBus\src\ThinkerThings.Usuario\ThinkerThings.Usuario.IoC\bin\Debug\SimpleInjector.xml
+C:\Users\diego.silva\Documents\Visual Studio 2017\Projects\ThinkerThing.FrameWork.EventBus\src\ThinkerThings.Usuario\ThinkerThings.Usuario.IoC\bin\Debug\StackExchange.Redis.xml
+C:\Users\diego.silva\Documents\Visual Studio 2017\Projects\ThinkerThing.FrameWork.EventBus\src\ThinkerThings.Usuario\ThinkerThings.Usuario.IoC\bin\Debug\Polly.pdb
+C:\Users\diego.silva\Documents\Visual Studio 2017\Projects\ThinkerThing.FrameWork.EventBus\src\ThinkerThings.Usuario\ThinkerThings.Usuario.IoC\bin\Debug\Polly.xml
+C:\Users\diego.silva\Documents\Visual Studio 2017\Projects\ThinkerThing.FrameWork.EventBus\src\ThinkerThings.Usuario\ThinkerThings.Usuario.IoC\bin\Debug\Newtonsoft.Json.xml
+C:\Users\diego.silva\Documents\Visual Studio 2017\Projects\ThinkerThing.FrameWork.EventBus\src\ThinkerThings.Usuario\ThinkerThings.Usuario.IoC\obj\Debug\ThinkerThings.Usuarios.IoC.csprojResolveAssemblyReference.cache
+C:\Users\diego.silva\Documents\Visual Studio 2017\Projects\ThinkerThing.FrameWork.EventBus\src\ThinkerThings.Usuario\ThinkerThings.Usuario.IoC\obj\Debug\ThinkerThings.Usuarios.IoC.dll
+C:\Users\diego.silva\Documents\Visual Studio 2017\Projects\ThinkerThing.FrameWork.EventBus\src\ThinkerThings.Usuario\ThinkerThings.Usuario.IoC\obj\Debug\ThinkerThings.Usuarios.IoC.pdb

@@ -1,1 +1,2 @@
 C:\dev\ThinkerThing\src\ThinkerThings.Usuario\ThinkerThings.Usuarios.Command.Api.Test\obj\Debug\ThinkerThings.Usuarios.Command.Api.Test.csprojResolveAssemblyReference.cache
+C:\Users\diego.silva\Documents\Visual Studio 2017\Projects\ThinkerThing.FrameWork.EventBus\src\ThinkerThings.Usuario\ThinkerThings.Usuarios.Command.Api.Test\obj\Debug\ThinkerThings.Usuarios.Command.Api.Test.csprojResolveAssemblyReference.cache

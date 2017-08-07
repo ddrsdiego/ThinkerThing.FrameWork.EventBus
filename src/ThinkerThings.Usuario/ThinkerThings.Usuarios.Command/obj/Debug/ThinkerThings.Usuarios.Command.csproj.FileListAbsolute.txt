@@ -14,3 +14,18 @@ C:\dev\ThinkerThing\src\ThinkerThings.Usuario\ThinkerThings.Usuarios.Command\bin
 C:\dev\ThinkerThing\src\ThinkerThings.Usuario\ThinkerThings.Usuarios.Command\obj\Debug\ThinkerThings.Usuarios.Command.csprojResolveAssemblyReference.cache
 C:\dev\ThinkerThing\src\ThinkerThings.Usuario\ThinkerThings.Usuarios.Command\obj\Debug\ThinkerThings.Usuarios.Command.dll
 C:\dev\ThinkerThing\src\ThinkerThings.Usuario\ThinkerThings.Usuarios.Command\obj\Debug\ThinkerThings.Usuarios.Command.pdb
+C:\Users\diego.silva\Documents\Visual Studio 2017\Projects\ThinkerThing.FrameWork.EventBus\src\ThinkerThings.Usuario\ThinkerThings.Usuarios.Command\bin\Debug\ThinkerThings.Usuarios.Command.dll
+C:\Users\diego.silva\Documents\Visual Studio 2017\Projects\ThinkerThing.FrameWork.EventBus\src\ThinkerThings.Usuario\ThinkerThings.Usuarios.Command\bin\Debug\ThinkerThings.Usuarios.Command.pdb
+C:\Users\diego.silva\Documents\Visual Studio 2017\Projects\ThinkerThing.FrameWork.EventBus\src\ThinkerThings.Usuario\ThinkerThings.Usuarios.Command\bin\Debug\CQRSlite.dll
+C:\Users\diego.silva\Documents\Visual Studio 2017\Projects\ThinkerThing.FrameWork.EventBus\src\ThinkerThings.Usuario\ThinkerThings.Usuarios.Command\bin\Debug\EventBus.dll
+C:\Users\diego.silva\Documents\Visual Studio 2017\Projects\ThinkerThing.FrameWork.EventBus\src\ThinkerThings.Usuario\ThinkerThings.Usuarios.Command\bin\Debug\MediatR.dll
+C:\Users\diego.silva\Documents\Visual Studio 2017\Projects\ThinkerThing.FrameWork.EventBus\src\ThinkerThings.Usuario\ThinkerThings.Usuarios.Command\bin\Debug\ThinkerThings.Dominio.Usuarios.dll
+C:\Users\diego.silva\Documents\Visual Studio 2017\Projects\ThinkerThing.FrameWork.EventBus\src\ThinkerThings.Usuario\ThinkerThings.Usuarios.Command\bin\Debug\SimpleInjector.dll
+C:\Users\diego.silva\Documents\Visual Studio 2017\Projects\ThinkerThing.FrameWork.EventBus\src\ThinkerThings.Usuario\ThinkerThings.Usuarios.Command\bin\Debug\EventBus.pdb
+C:\Users\diego.silva\Documents\Visual Studio 2017\Projects\ThinkerThing.FrameWork.EventBus\src\ThinkerThings.Usuario\ThinkerThings.Usuarios.Command\bin\Debug\ThinkerThings.Dominio.Usuarios.pdb
+C:\Users\diego.silva\Documents\Visual Studio 2017\Projects\ThinkerThing.FrameWork.EventBus\src\ThinkerThings.Usuario\ThinkerThings.Usuarios.Command\bin\Debug\CQRSlite.pdb
+C:\Users\diego.silva\Documents\Visual Studio 2017\Projects\ThinkerThing.FrameWork.EventBus\src\ThinkerThings.Usuario\ThinkerThings.Usuarios.Command\bin\Debug\Rydo.Framework.MediatR.pdb
+C:\Users\diego.silva\Documents\Visual Studio 2017\Projects\ThinkerThing.FrameWork.EventBus\src\ThinkerThings.Usuario\ThinkerThings.Usuarios.Command\bin\Debug\SimpleInjector.xml
+C:\Users\diego.silva\Documents\Visual Studio 2017\Projects\ThinkerThing.FrameWork.EventBus\src\ThinkerThings.Usuario\ThinkerThings.Usuarios.Command\obj\Debug\ThinkerThings.Usuarios.Command.csprojResolveAssemblyReference.cache
+C:\Users\diego.silva\Documents\Visual Studio 2017\Projects\ThinkerThing.FrameWork.EventBus\src\ThinkerThings.Usuario\ThinkerThings.Usuarios.Command\obj\Debug\ThinkerThings.Usuarios.Command.dll
+C:\Users\diego.silva\Documents\Visual Studio 2017\Projects\ThinkerThing.FrameWork.EventBus\src\ThinkerThings.Usuario\ThinkerThings.Usuarios.Command\obj\Debug\ThinkerThings.Usuarios.Command.pdb
