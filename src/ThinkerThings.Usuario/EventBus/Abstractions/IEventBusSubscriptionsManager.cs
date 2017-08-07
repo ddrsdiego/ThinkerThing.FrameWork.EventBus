@@ -12,11 +12,11 @@ namespace EventBus.Abstractions
         void Clear();
 
         void AddSubscription<T>(string eventName)
-           where T : IRequest<Unit>;
+           where T : IntegrationEvent;
 
         void RemoveSubscription<T, TH>()
            where T : IntegrationEvent
-           where TH : IntegrationEventHandler<T>;
+           where TH : IntegrationEventHandler<T, Unit>;
 
         bool HasSubscriptionsForEvent<T>() where T : IntegrationEvent;
 

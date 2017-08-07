@@ -1,8 +1,8 @@
-﻿using MediatR;
+﻿using Rydo.Framework.MediatR.Eventos;
 
 namespace ThinkerThings.Dominio.Usuarios.Events
 {
-    public class UsuarioAtualizadoEvent : IRequest<Unit>
+    public class UsuarioAtualizadoEvent : IntegrationEvent
     {
         public UsuarioAtualizadoEvent(string nome)
         {

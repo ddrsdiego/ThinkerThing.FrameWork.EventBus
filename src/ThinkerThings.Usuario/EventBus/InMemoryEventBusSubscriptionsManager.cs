@@ -21,7 +21,7 @@ namespace EventBus
         public bool IsEmpty => !_eventTypes.Keys.Any();
 
         public void AddSubscription<T>(string eventName)
-            where T : IRequest<Unit>
+            where T : IntegrationEvent
         {
             _eventTypes.Add(eventName, typeof(T));
         }
@@ -39,7 +39,7 @@ namespace EventBus
 
         public void RemoveSubscription<T, TH>()
             where T : IntegrationEvent
-            where TH : IntegrationEventHandler<T>
+            where TH : IntegrationEventHandler<T, Unit>
         {
             throw new NotImplementedException();
         }

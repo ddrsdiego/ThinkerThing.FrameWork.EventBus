@@ -1,12 +1,13 @@
 ﻿using MediatR;
+using Rydo.Framework.MediatR.Eventos;
 using System;
 
 namespace EventBus.Abstractions
 {
     public interface IEventBus : IDisposable
     {
-        void Subscribe<T>() where T : IRequest<Unit>;
+        void Subscribe<T>() where T : IntegrationEvent;
 
-        void Publish(IRequest<Unit> @event);
+        void Publish(IntegrationEvent @event);
     }
 }

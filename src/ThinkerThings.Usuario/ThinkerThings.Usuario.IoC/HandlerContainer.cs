@@ -20,6 +20,7 @@ namespace ThinkerThings.Usuarios.IoC
             container.Register(typeof(INotificationHandler<>), assemblies);
 
             container.Register(typeof(HandlerRequest<,>), assemblies);
+            container.Register(typeof(IntegrationEventHandler<,>), assemblies);
         }
 
         private static IEnumerable<Assembly> GetAssemblies()

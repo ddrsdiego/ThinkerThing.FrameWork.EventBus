@@ -5,6 +5,7 @@ using Polly;
 using RabbitMQ.Client;
 using RabbitMQ.Client.Events;
 using RabbitMQ.Client.Exceptions;
+using Rydo.Framework.MediatR.Eventos;
 using System;
 using System.Net.Sockets;
 using System.Text;
@@ -28,7 +29,7 @@ namespace EventBusRabbitMQ
             _persistentConnection = persistentConnection;
         }
 
-        public void Publish(IRequest<Unit> @event)
+        public void Publish(IntegrationEvent @event)
         {
             VerifyConnection();
 
@@ -125,7 +126,7 @@ namespace EventBusRabbitMQ
             try
             {
                 var eventType = _subsManager.GetEventTypeByName(eventName);
-                var integrationEvent = (IRequest<Unit>)JsonConvert.DeserializeObject(message, eventType);
+                var integrationEvent = (IntegrationEvent)JsonConvert.DeserializeObject(message, eventType);
                 await _mediator.Send(integrationEvent);
             }
             catch (Exception ex)
@@ -135,7 +136,7 @@ namespace EventBusRabbitMQ
         }
 
         public void Subscribe<T>()
-            where T : IRequest<Unit>
+            where T : IntegrationEvent
         {
             var eventName = _subsManager.GetEventKey<T>();
 
