@@ -35,10 +35,7 @@ namespace EventBusRabbitMQ
 
             var policy = Policy.Handle<BrokerUnreachableException>()
                                     .Or<SocketException>()
-                                    .WaitAndRetry(5, retryAttempt => TimeSpan.FromSeconds(Math.Pow(2, retryAttempt)), (ex, time) =>
-                                    {
-                                        //_logger.LogWarning(ex.ToString());
-                                    });
+                                    .WaitAndRetry(5, retryAttempt => TimeSpan.FromSeconds(Math.Pow(2, retryAttempt)), (ex, time) => { });
 
             using (var channel = _persistentConnection.CreateModel())
             {
@@ -96,7 +93,6 @@ namespace EventBusRabbitMQ
                 await ProcessEvent(eventName, message);
 
                 channel.BasicQos(0, 5, false);
-                //channel.BasicAck(deliveryTag: ea.DeliveryTag, multiple: true);
             };
 
             channel.BasicConsume(queue: queueName,
