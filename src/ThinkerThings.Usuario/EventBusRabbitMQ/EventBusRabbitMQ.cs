@@ -48,7 +48,9 @@ namespace EventBusRabbitMQ
                 var body = Encoding.UTF8.GetBytes(message);
 
                 var basicProperties = channel.CreateBasicProperties();
+
                 basicProperties.ContentType = CONTENT_TYPE;
+                basicProperties.Type = @event.GetType().AssemblyQualifiedName;
 
                 policy.Execute(() =>
                 {
@@ -58,6 +60,16 @@ namespace EventBusRabbitMQ
                                          body: body);
                 });
             }
+        }
+
+        public void Subscribe<T>()
+            where T : IntegrationEvent
+        {
+            var eventName = _subsManager.GetEventKey<T>();
+
+            DoInternalSubscription(eventName);
+
+            _subsManager.AddSubscription<T>(eventName);
         }
 
         public void Dispose()
@@ -87,10 +99,7 @@ namespace EventBusRabbitMQ
             var consumer = new EventingBasicConsumer(channel);
             consumer.Received += async (model, ea) =>
             {
-                var eventName = GetEventName(ea);
-                var message = Encoding.UTF8.GetString(ea.Body);
-
-                await ProcessEvent(eventName, message);
+                await ProcessEvent(ea);
 
                 channel.BasicQos(0, 5, false);
             };
@@ -131,14 +140,21 @@ namespace EventBusRabbitMQ
             }
         }
 
-        public void Subscribe<T>()
-            where T : IntegrationEvent
+        private async Task ProcessEvent(BasicDeliverEventArgs ea)
         {
-            var eventName = _subsManager.GetEventKey<T>();
+            try
+            {
+                var message = Encoding.UTF8.GetString(ea.Body);
+                var eventType = $"{ea.BasicProperties.Type},ThinkerThings.Dominio.Usuarios";
 
-            DoInternalSubscription(eventName);
+                var integrationEvent = (IntegrationEvent)JsonConvert.DeserializeObject(message, Type.GetType(ea.BasicProperties.Type));
 
-            _subsManager.AddSubscription<T>(eventName);
+                await _mediator.Send(integrationEvent);
+            }
+            catch (Exception ex)
+            {
+
+            }
         }
 
         private void DoInternalSubscription(string eventName)
