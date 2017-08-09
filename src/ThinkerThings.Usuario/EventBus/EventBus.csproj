@@ -52,7 +52,9 @@
     <Compile Include="Abstractions\IEventBus.cs" />
     <Compile Include="Abstractions\IEventBusSubscriptionsManager.cs" />
     <Compile Include="InMemoryEventBusSubscriptionsManager.cs" />
+    <Compile Include="MessageConfiguration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="RabbitMQ\IRabbitMQPersistentConnection.cs" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Events\" />

@@ -1,4 +1,6 @@
-﻿using EventBus.Abstractions;
+﻿using EventBus;
+using EventBus.Abstractions;
+using EventBus.RabbitMQ;
 using MediatR;
 using Newtonsoft.Json;
 using Polly;
@@ -7,6 +9,7 @@ using RabbitMQ.Client.Events;
 using RabbitMQ.Client.Exceptions;
 using Rydo.Framework.MediatR.Eventos;
 using System;
+using System.Collections.Generic;
 using System.Net.Sockets;
 using System.Text;
 using System.Threading.Tasks;
@@ -18,15 +21,15 @@ namespace EventBusRabbitMQ
         private const string CONTENT_TYPE = "application/json";
 
         private IModel _consumerChannel;
+        private Dictionary<string, Type> _subsManager;
         private readonly IMediator _mediator;
-        private readonly IEventBusSubscriptionsManager _subsManager;
         private readonly IRabbitMQPersistentConnection _persistentConnection;
 
-        public EventBusRabbitMQ(IRabbitMQPersistentConnection persistentConnection, IEventBusSubscriptionsManager subsManager, IMediator mediator)
+        public EventBusRabbitMQ(IRabbitMQPersistentConnection persistentConnection, IMediator mediator)
         {
             _mediator = mediator;
-            _subsManager = subsManager;
             _persistentConnection = persistentConnection;
+            _subsManager = new Dictionary<string, Type>();
         }
 
         public void Publish(IntegrationEvent @event)
@@ -65,11 +68,24 @@ namespace EventBusRabbitMQ
         public void Subscribe<T>()
             where T : IntegrationEvent
         {
-            var eventName = _subsManager.GetEventKey<T>();
+            var eventName = typeof(T).FullName;
 
             DoInternalSubscription(eventName);
 
-            _subsManager.AddSubscription<T>(eventName);
+            _subsManager.Add(eventName, typeof(T));
+        }
+
+        public void Subscribe<T>(Action<IEndpointSpecificationConfigurator> configuration) where T : IntegrationEvent
+        {
+            VerifyConnection();
+
+            using (var channel = _persistentConnection.CreateModel())
+            {
+                var messageConfiguration = new MessageConfiguration();
+                configuration(messageConfiguration);
+
+                DoInternalSubscription(messageConfiguration);
+            }
         }
 
         public void Dispose()
@@ -117,37 +133,13 @@ namespace EventBusRabbitMQ
             return channel;
         }
 
-        private string GetEventName(BasicDeliverEventArgs ea)
-        {
-            var eventName = string.IsNullOrEmpty(ea.RoutingKey) ? ea.Exchange : ea.RoutingKey;
-
-            eventName = eventName.Substring(3, eventName.Length - 3);
-
-            return eventName;
-        }
-
-        private async Task ProcessEvent(string eventName, string message)
-        {
-            try
-            {
-                var eventType = _subsManager.GetEventTypeByName(eventName);
-                var integrationEvent = (IntegrationEvent)JsonConvert.DeserializeObject(message, eventType);
-                await _mediator.Send(integrationEvent);
-            }
-            catch (Exception ex)
-            {
-
-            }
-        }
-
         private async Task ProcessEvent(BasicDeliverEventArgs ea)
         {
             try
             {
                 var message = Encoding.UTF8.GetString(ea.Body);
-                var eventType = $"{ea.BasicProperties.Type},ThinkerThings.Dominio.Usuarios";
-
-                var integrationEvent = (IntegrationEvent)JsonConvert.DeserializeObject(message, Type.GetType(ea.BasicProperties.Type));
+                var eventType = Type.GetType(ea.BasicProperties.Type);
+                var integrationEvent = (IntegrationEvent)JsonConvert.DeserializeObject(message, eventType);
 
                 await _mediator.Send(integrationEvent);
             }
@@ -157,9 +149,46 @@ namespace EventBusRabbitMQ
             }
         }
 
+        private void DoInternalSubscription(MessageConfiguration messageConfiguration)
+        {
+            var containsKey = _subsManager.ContainsKey("");
+
+            if (!containsKey)
+            {
+                var queueName = messageConfiguration.QueueName;
+                //var queueName = $"QL.{eventName}";
+                //var exchangeName = $"EX.{eventName}";
+
+                VerifyConnection();
+
+                using (var channel = _persistentConnection.CreateModel())
+                {
+
+                    //channel.ExchangeDeclare(exchange: exchangeName,
+                    //                        type: ExchangeType.Direct,
+                    //                        durable: false,
+                    //                        autoDelete: false,
+                    //                        arguments: null);
+
+                    //channel.QueueDeclare(queue: queueName,
+                    //                     durable: false,
+                    //                     exclusive: false,
+                    //                     autoDelete: false,
+                    //                     arguments: null);
+
+                    //channel.QueueBind(queue: queueName,
+                    //                  exchange: exchangeName,
+                    //                  routingKey: string.Empty,
+                    //                  arguments: null);
+
+                    //_consumerChannel = CreateConsumerChannel(queueName);
+                }
+            }
+        }
+
         private void DoInternalSubscription(string eventName)
         {
-            var containsKey = _subsManager.HasSubscriptionsForEvent(eventName);
+            var containsKey = _subsManager.ContainsKey(eventName);
 
             if (!containsKey)
             {

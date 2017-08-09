@@ -10,7 +10,10 @@ namespace ThinkerThings.Usuarios.Command.Api.Helpers
         {
             var eventBus = container.GetInstance<IEventBus>();
 
-            eventBus.Subscribe<UsuarioCriadoEvent>();
+            eventBus.Subscribe<UsuarioCriadoEvent>(cfg=> 
+            {
+                cfg.QueueName = "Hello";
+            });
         }
     }
 }

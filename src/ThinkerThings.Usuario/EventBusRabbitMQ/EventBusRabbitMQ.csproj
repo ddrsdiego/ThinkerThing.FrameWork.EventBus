@@ -54,7 +54,6 @@
   <ItemGroup>
     <Compile Include="DefaultRabbitMQPersistentConnection.cs" />
     <Compile Include="EventBusRabbitMQ.cs" />
-    <Compile Include="IRabbitMQPersistentConnection.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

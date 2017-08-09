@@ -33,7 +33,6 @@ C:\Users\diego.silva\Documents\Visual Studio 2017\Projects\ThinkerThing.FrameWor
 C:\Users\diego.silva\Documents\Visual Studio 2017\Projects\ThinkerThing.FrameWork.EventBus\src\ThinkerThings.Usuario\EventBusRabbitMQ\bin\Debug\RabbitMQ.Client.dll
 C:\Users\diego.silva\Documents\Visual Studio 2017\Projects\ThinkerThing.FrameWork.EventBus\src\ThinkerThings.Usuario\EventBusRabbitMQ\bin\Debug\ThinkerThings.Dominio.Usuarios.dll
 C:\Users\diego.silva\Documents\Visual Studio 2017\Projects\ThinkerThing.FrameWork.EventBus\src\ThinkerThings.Usuario\EventBusRabbitMQ\bin\Debug\CQRSlite.dll
-C:\Users\diego.silva\Documents\Visual Studio 2017\Projects\ThinkerThing.FrameWork.EventBus\src\ThinkerThings.Usuario\EventBusRabbitMQ\bin\Debug\SimpleInjector.dll
 C:\Users\diego.silva\Documents\Visual Studio 2017\Projects\ThinkerThing.FrameWork.EventBus\src\ThinkerThings.Usuario\EventBusRabbitMQ\bin\Debug\EventBus.pdb
 C:\Users\diego.silva\Documents\Visual Studio 2017\Projects\ThinkerThing.FrameWork.EventBus\src\ThinkerThings.Usuario\EventBusRabbitMQ\bin\Debug\ThinkerThings.Dominio.Usuarios.pdb
 C:\Users\diego.silva\Documents\Visual Studio 2017\Projects\ThinkerThing.FrameWork.EventBus\src\ThinkerThings.Usuario\EventBusRabbitMQ\bin\Debug\Microsoft.Diagnostics.Tracing.EventSource.xml
@@ -41,9 +40,7 @@ C:\Users\diego.silva\Documents\Visual Studio 2017\Projects\ThinkerThing.FrameWor
 C:\Users\diego.silva\Documents\Visual Studio 2017\Projects\ThinkerThing.FrameWork.EventBus\src\ThinkerThings.Usuario\EventBusRabbitMQ\bin\Debug\Polly.pdb
 C:\Users\diego.silva\Documents\Visual Studio 2017\Projects\ThinkerThing.FrameWork.EventBus\src\ThinkerThings.Usuario\EventBusRabbitMQ\bin\Debug\Polly.xml
 C:\Users\diego.silva\Documents\Visual Studio 2017\Projects\ThinkerThing.FrameWork.EventBus\src\ThinkerThings.Usuario\EventBusRabbitMQ\bin\Debug\RabbitMQ.Client.xml
-C:\Users\diego.silva\Documents\Visual Studio 2017\Projects\ThinkerThing.FrameWork.EventBus\src\ThinkerThings.Usuario\EventBusRabbitMQ\bin\Debug\Rydo.Framework.MediatR.pdb
 C:\Users\diego.silva\Documents\Visual Studio 2017\Projects\ThinkerThing.FrameWork.EventBus\src\ThinkerThings.Usuario\EventBusRabbitMQ\bin\Debug\CQRSlite.pdb
-C:\Users\diego.silva\Documents\Visual Studio 2017\Projects\ThinkerThing.FrameWork.EventBus\src\ThinkerThings.Usuario\EventBusRabbitMQ\bin\Debug\SimpleInjector.xml
 C:\Users\diego.silva\Documents\Visual Studio 2017\Projects\ThinkerThing.FrameWork.EventBus\src\ThinkerThings.Usuario\EventBusRabbitMQ\obj\Debug\EventBusRabbitMQ.csprojResolveAssemblyReference.cache
 C:\Users\diego.silva\Documents\Visual Studio 2017\Projects\ThinkerThing.FrameWork.EventBus\src\ThinkerThings.Usuario\EventBusRabbitMQ\obj\Debug\EventBusRabbitMQ.dll
 C:\Users\diego.silva\Documents\Visual Studio 2017\Projects\ThinkerThing.FrameWork.EventBus\src\ThinkerThings.Usuario\EventBusRabbitMQ\obj\Debug\EventBusRabbitMQ.pdb

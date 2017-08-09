@@ -24,13 +24,10 @@ C:\Users\diego.silva\Documents\Visual Studio 2017\Projects\ThinkerThing.FrameWor
 C:\Users\diego.silva\Documents\Visual Studio 2017\Projects\ThinkerThing.FrameWork.EventBus\src\ThinkerThings.Usuario\ThinkerThings.Usuario.Data\bin\Debug\ThinkerThings.Dominio.Usuarios.dll
 C:\Users\diego.silva\Documents\Visual Studio 2017\Projects\ThinkerThing.FrameWork.EventBus\src\ThinkerThings.Usuario\ThinkerThings.Usuario.Data\bin\Debug\Rydo.Framework.MediatR.dll
 C:\Users\diego.silva\Documents\Visual Studio 2017\Projects\ThinkerThing.FrameWork.EventBus\src\ThinkerThings.Usuario\ThinkerThings.Usuario.Data\bin\Debug\MediatR.dll
-C:\Users\diego.silva\Documents\Visual Studio 2017\Projects\ThinkerThing.FrameWork.EventBus\src\ThinkerThings.Usuario\ThinkerThings.Usuario.Data\bin\Debug\SimpleInjector.dll
 C:\Users\diego.silva\Documents\Visual Studio 2017\Projects\ThinkerThing.FrameWork.EventBus\src\ThinkerThings.Usuario\ThinkerThings.Usuario.Data\bin\Debug\ThinkerThings.Dominio.Usuarios.pdb
 C:\Users\diego.silva\Documents\Visual Studio 2017\Projects\ThinkerThing.FrameWork.EventBus\src\ThinkerThings.Usuario\ThinkerThings.Usuario.Data\bin\Debug\CQRSlite.pdb
 C:\Users\diego.silva\Documents\Visual Studio 2017\Projects\ThinkerThing.FrameWork.EventBus\src\ThinkerThings.Usuario\ThinkerThings.Usuario.Data\bin\Debug\Newtonsoft.Json.xml
 C:\Users\diego.silva\Documents\Visual Studio 2017\Projects\ThinkerThing.FrameWork.EventBus\src\ThinkerThings.Usuario\ThinkerThings.Usuario.Data\bin\Debug\StackExchange.Redis.xml
-C:\Users\diego.silva\Documents\Visual Studio 2017\Projects\ThinkerThing.FrameWork.EventBus\src\ThinkerThings.Usuario\ThinkerThings.Usuario.Data\bin\Debug\Rydo.Framework.MediatR.pdb
-C:\Users\diego.silva\Documents\Visual Studio 2017\Projects\ThinkerThing.FrameWork.EventBus\src\ThinkerThings.Usuario\ThinkerThings.Usuario.Data\bin\Debug\SimpleInjector.xml
 C:\Users\diego.silva\Documents\Visual Studio 2017\Projects\ThinkerThing.FrameWork.EventBus\src\ThinkerThings.Usuario\ThinkerThings.Usuario.Data\obj\Debug\ThinkerThings.Usuarios.Data.csprojResolveAssemblyReference.cache
 C:\Users\diego.silva\Documents\Visual Studio 2017\Projects\ThinkerThing.FrameWork.EventBus\src\ThinkerThings.Usuario\ThinkerThings.Usuario.Data\obj\Debug\ThinkerThings.Usuarios.Data.dll
 C:\Users\diego.silva\Documents\Visual Studio 2017\Projects\ThinkerThing.FrameWork.EventBus\src\ThinkerThings.Usuario\ThinkerThings.Usuario.Data\obj\Debug\ThinkerThings.Usuarios.Data.pdb

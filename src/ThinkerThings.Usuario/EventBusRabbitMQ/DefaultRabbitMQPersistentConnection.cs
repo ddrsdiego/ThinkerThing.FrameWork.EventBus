@@ -1,4 +1,5 @@
-﻿using Polly;
+﻿using EventBus.RabbitMQ;
+using Polly;
 using RabbitMQ.Client;
 using RabbitMQ.Client.Events;
 using RabbitMQ.Client.Exceptions;

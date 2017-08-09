@@ -1,5 +1,6 @@
 ﻿using EventBus;
 using EventBus.Abstractions;
+using EventBus.RabbitMQ;
 using EventBusRabbitMQ;
 using RabbitMQ.Client;
 using SimpleInjector;

@@ -68,7 +68,6 @@ C:\Users\diego.silva\Documents\Visual Studio 2017\Projects\ThinkerThing.FrameWor
 C:\Users\diego.silva\Documents\Visual Studio 2017\Projects\ThinkerThing.FrameWork.EventBus\src\ThinkerThings.Usuario\ThinkerThings.Usuario.IoC\bin\Debug\CQRSlite.pdb
 C:\Users\diego.silva\Documents\Visual Studio 2017\Projects\ThinkerThing.FrameWork.EventBus\src\ThinkerThings.Usuario\ThinkerThings.Usuario.IoC\bin\Debug\Microsoft.Diagnostics.Tracing.EventSource.xml
 C:\Users\diego.silva\Documents\Visual Studio 2017\Projects\ThinkerThing.FrameWork.EventBus\src\ThinkerThings.Usuario\ThinkerThings.Usuario.IoC\bin\Debug\RabbitMQ.Client.xml
-C:\Users\diego.silva\Documents\Visual Studio 2017\Projects\ThinkerThing.FrameWork.EventBus\src\ThinkerThings.Usuario\ThinkerThings.Usuario.IoC\bin\Debug\Rydo.Framework.MediatR.pdb
 C:\Users\diego.silva\Documents\Visual Studio 2017\Projects\ThinkerThing.FrameWork.EventBus\src\ThinkerThings.Usuario\ThinkerThings.Usuario.IoC\bin\Debug\SimpleInjector.xml
 C:\Users\diego.silva\Documents\Visual Studio 2017\Projects\ThinkerThing.FrameWork.EventBus\src\ThinkerThings.Usuario\ThinkerThings.Usuario.IoC\bin\Debug\StackExchange.Redis.xml
 C:\Users\diego.silva\Documents\Visual Studio 2017\Projects\ThinkerThing.FrameWork.EventBus\src\ThinkerThings.Usuario\ThinkerThings.Usuario.IoC\bin\Debug\Polly.pdb

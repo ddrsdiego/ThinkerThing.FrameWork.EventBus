@@ -133,7 +133,6 @@ C:\Users\diego.silva\Documents\Visual Studio 2017\Projects\ThinkerThing.FrameWor
 C:\Users\diego.silva\Documents\Visual Studio 2017\Projects\ThinkerThing.FrameWork.EventBus\src\ThinkerThings.Usuario\ThinkerThings.Usuarios.Command.Api\bin\Microsoft.Owin.Security.xml
 C:\Users\diego.silva\Documents\Visual Studio 2017\Projects\ThinkerThing.FrameWork.EventBus\src\ThinkerThings.Usuario\ThinkerThings.Usuarios.Command.Api\bin\Microsoft.Owin.Security.OAuth.xml
 C:\Users\diego.silva\Documents\Visual Studio 2017\Projects\ThinkerThing.FrameWork.EventBus\src\ThinkerThings.Usuario\ThinkerThings.Usuarios.Command.Api\bin\Newtonsoft.Json.xml
-C:\Users\diego.silva\Documents\Visual Studio 2017\Projects\ThinkerThing.FrameWork.EventBus\src\ThinkerThings.Usuario\ThinkerThings.Usuarios.Command.Api\bin\Rydo.Framework.MediatR.pdb
 C:\Users\diego.silva\Documents\Visual Studio 2017\Projects\ThinkerThing.FrameWork.EventBus\src\ThinkerThings.Usuario\ThinkerThings.Usuarios.Command.Api\bin\SimpleInjector.xml
 C:\Users\diego.silva\Documents\Visual Studio 2017\Projects\ThinkerThing.FrameWork.EventBus\src\ThinkerThings.Usuario\ThinkerThings.Usuarios.Command.Api\bin\SimpleInjector.Integration.WebApi.xml
 C:\Users\diego.silva\Documents\Visual Studio 2017\Projects\ThinkerThing.FrameWork.EventBus\src\ThinkerThings.Usuario\ThinkerThings.Usuarios.Command.Api\bin\System.Net.Http.Formatting.xml
