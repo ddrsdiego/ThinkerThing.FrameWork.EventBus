@@ -49,11 +49,17 @@
     <Reference Include="Microsoft.CSharp" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Abstractions\EntitySettings.cs" />
+    <Compile Include="Abstractions\IExchangeEntity.cs" />
     <Compile Include="Abstractions\IEventBus.cs" />
     <Compile Include="Abstractions\IEventBusSubscriptionsManager.cs" />
+    <Compile Include="Abstractions\IQueueEntity.cs" />
+    <Compile Include="ExchangeEntity.cs" />
     <Compile Include="InMemoryEventBusSubscriptionsManager.cs" />
-    <Compile Include="MessageConfiguration.cs" />
+    <Compile Include="Abstractions\IQueueBindingEntity.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="QueueBindingEntity.cs" />
+    <Compile Include="QueueEntity.cs" />
     <Compile Include="RabbitMQ\IRabbitMQPersistentConnection.cs" />
   </ItemGroup>
   <ItemGroup>

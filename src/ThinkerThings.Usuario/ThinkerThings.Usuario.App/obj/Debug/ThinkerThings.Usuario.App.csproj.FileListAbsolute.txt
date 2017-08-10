@@ -23,3 +23,5 @@ C:\Users\diego.silva\Documents\Visual Studio 2017\Projects\ThinkerThing.FrameWor
 C:\Users\diego.silva\Documents\Visual Studio 2017\Projects\ThinkerThing.FrameWork.EventBus\src\ThinkerThings.Usuario\ThinkerThings.Usuario.App\obj\Debug\ThinkerThings.Usuario.App.csprojResolveAssemblyReference.cache
 C:\Users\diego.silva\Documents\Visual Studio 2017\Projects\ThinkerThing.FrameWork.EventBus\src\ThinkerThings.Usuario\ThinkerThings.Usuario.App\obj\Debug\ThinkerThings.Usuario.App.exe
 C:\Users\diego.silva\Documents\Visual Studio 2017\Projects\ThinkerThing.FrameWork.EventBus\src\ThinkerThings.Usuario\ThinkerThings.Usuario.App\obj\Debug\ThinkerThings.Usuario.App.pdb
+C:\Users\diego.silva\Documents\Visual Studio 2017\Projects\ThinkerThing.FrameWork.EventBus\src\ThinkerThings.Usuario\ThinkerThings.Usuario.App\bin\Debug\SimpleInjector.dll
+C:\Users\diego.silva\Documents\Visual Studio 2017\Projects\ThinkerThing.FrameWork.EventBus\src\ThinkerThings.Usuario\ThinkerThings.Usuario.App\bin\Debug\SimpleInjector.xml

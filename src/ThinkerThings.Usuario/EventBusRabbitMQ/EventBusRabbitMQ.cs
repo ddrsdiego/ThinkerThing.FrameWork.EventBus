@@ -75,18 +75,18 @@ namespace EventBusRabbitMQ
             _subsManager.Add(eventName, typeof(T));
         }
 
-        public void Subscribe<T>(Action<IEndpointSpecificationConfigurator> configuration) where T : IntegrationEvent
-        {
-            VerifyConnection();
+        //public void Subscribe<T>(Action<IEndpointSpecificationConfigurator> configuration) where T : IntegrationEvent
+        //{
+        //    VerifyConnection();
 
-            using (var channel = _persistentConnection.CreateModel())
-            {
-                var messageConfiguration = new MessageConfiguration();
-                configuration(messageConfiguration);
+        //    using (var channel = _persistentConnection.CreateModel())
+        //    {
+        //        var messageConfiguration = new EndpointSpecificationConfigurator();
+        //        configuration(messageConfiguration);
 
-                DoInternalSubscription(messageConfiguration);
-            }
-        }
+        //        DoInternalSubscription(messageConfiguration);
+        //    }
+        //}
 
         public void Dispose()
         {
@@ -149,42 +149,40 @@ namespace EventBusRabbitMQ
             }
         }
 
-        private void DoInternalSubscription(MessageConfiguration messageConfiguration)
-        {
-            var containsKey = _subsManager.ContainsKey("");
+        //private void DoInternalSubscription(IEndpointSpecificationConfigurator endpointSpecConfig)
+        //{
+        //    var containsKey = _subsManager.ContainsKey("");
 
-            if (!containsKey)
-            {
-                var queueName = messageConfiguration.QueueName;
-                //var queueName = $"QL.{eventName}";
-                //var exchangeName = $"EX.{eventName}";
+        //    if (!containsKey)
+        //    {
+        //        var queueName = endpointSpecConfig.QueueName;
+        //        var exchangeName = endpointSpecConfig.ExchangeName;
 
-                VerifyConnection();
+        //        VerifyConnection();
 
-                using (var channel = _persistentConnection.CreateModel())
-                {
+        //        using (var channel = _persistentConnection.CreateModel())
+        //        {
+        //            channel.ExchangeDeclare(exchange: exchangeName,
+        //                                    type: ExchangeType.Direct,
+        //                                    durable: false,
+        //                                    autoDelete: false,
+        //                                    arguments: null);
 
-                    //channel.ExchangeDeclare(exchange: exchangeName,
-                    //                        type: ExchangeType.Direct,
-                    //                        durable: false,
-                    //                        autoDelete: false,
-                    //                        arguments: null);
+        //            channel.QueueDeclare(queue: queueName,
+        //                                 durable: false,
+        //                                 exclusive: false,
+        //                                 autoDelete: false,
+        //                                 arguments: null);
 
-                    //channel.QueueDeclare(queue: queueName,
-                    //                     durable: false,
-                    //                     exclusive: false,
-                    //                     autoDelete: false,
-                    //                     arguments: null);
+        //            channel.QueueBind(queue: queueName,
+        //                              exchange: exchangeName,
+        //                              routingKey: string.Empty,
+        //                              arguments: null);
 
-                    //channel.QueueBind(queue: queueName,
-                    //                  exchange: exchangeName,
-                    //                  routingKey: string.Empty,
-                    //                  arguments: null);
-
-                    //_consumerChannel = CreateConsumerChannel(queueName);
-                }
-            }
-        }
+        //            _consumerChannel = CreateConsumerChannel(queueName);
+        //        }
+        //    }
+        //}
 
         private void DoInternalSubscription(string eventName)
         {
